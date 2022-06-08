@@ -1,0 +1,35 @@
+Anforderungen
+
+1) Contracts
+--> ClearCase-Schnittstelle 
+
+2) 
+
+SourceProjekt:
+
+Source-Projekt muss auswählbar sein, aus allen Projekten des gewählten PVOB's
+Wenn Parameter SourceViewTag vorhanden, dann wähle das zugehörige Projekt als SourceProject
+Optional: PVOB muss auswählbar sein
+Default PVOB: pvob
+Wenn SourceProject ausgewählt wird, dann ermittle die Komponenten dieses Projekts
+Der Int-Stream des ausgewählten SourceProjects soll angezeigt werden
+Die CompositeComponenten + ModComps eines gewählten SourceProject sollen angezeigt werden
+Die auf dem Int-Stream des Projekts erzeugten Baselines einer gewählten Komponente sollen angezeigt werden
+
+Allgemein:
+
+Während Werte einer UI-Komponente gerade ermittelt werden, soll ein Ladebalken angezeigt werden
+
+Views:
+Beim Starten der Anwendung sollen die Integration-Views auf diesem Rechner ermittelt und dann angezeigt werden
+Die Projekte der ermittelten Views
+
+
+Klassen:
+
+Projekt
+ -> Dict<Komponente, bool> KomponenteZuReadonly
+Komponente
+
+Contracts
+
